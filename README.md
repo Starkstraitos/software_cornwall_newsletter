@@ -1,3 +1,3 @@
-This current stage of swcw_nwlr, is more the comming together of the final components. 
-Opening up the Software_cornwall_prototype folder will bring you to the stage where all the components have been assembled.
-It is not cosmetically looking fantastic yet, and more work with CSS will be needed.
+This updated version, comes with a primarily finished technical read-out of the project. The zip, included is the first draft, whilst the folder, contains the current stage of development.
+
+Next, the project will be worked on with CSS, to make it look stunning.
