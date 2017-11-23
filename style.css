@@ -1,54 +1,57 @@
-*{
-  padding:0;
-  margin:0;
+* {
+  padding: 0;
+  margin: 0;
   list-style: none;
   text-decoration: none;
-  box-sizing:border-box;
+  box-sizing: border-box;
 }
 
-body{
-  font: 15px/1.5 Arial, Helvetica,sans-serif ;
-  padding:0;
-  margin:0;
+body {
+  font: 15px/1.5 Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
   list-style: none;
   background-color: #f4f4f4;
-<<<<<<< HEAD
-  position:relative;
-=======
   position: relative;
->>>>>>> cb132474d87c6a7a648ea4e1bf30e987fb9a7b38
 }
 
-img{
-  width:100%;
+img {
+  width: 100%;
   height: auto;
 }
-.gamechanger{margin-top:35px;}
+
+.gamechanger {
+  margin-top: 35px;
+}
+
 /* Header */
-header{
-  background:#f4f4f4;
-  padding-top:5px;
-  padding-bottom:5px;
+
+header {
+  background: #f4f4f4;
+  padding-top: 5px;
+  padding-bottom: 5px;
   margin-bottom: 10px;
-  border-bottom:#000000 5px solid;
+  border-bottom: #000000 5px solid;
 }
 
 /* Slideshow container */
+
 .slideshow-container {
   position: relative;
   margin: auto;
   margin-left: -15px;
   margin-right: -15px;
   margin-bottom: -7px;
-
 }
 
 .mySlides {
-    display: none;
+  display: none;
 }
 
 /* Next & previous buttons */
-.prev, .next {
+
+.prev,
+.next {
   cursor: pointer;
   position: absolute;
   top: 50%;
@@ -63,18 +66,22 @@ header{
 }
 
 /* Position the "next button" to the right */
+
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
 
 /* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-/* background-color: rgba(0,0,0,0.8); */
+
+.prev:hover,
+.next:hover {
+  /* background-color: rgba(0,0,0,0.8); */
   colour: white;
 }
 
 /* Caption text */
+
 .text {
   color: #f2f2f2;
   font-size: 15px;
@@ -83,10 +90,11 @@ header{
   bottom: 0px;
   width: 100%;
   text-align: center;
-  background-color:rgba(10,10, 10, .4);
+  background-color: rgba(10, 10, 10, .4);
 }
 
 /* Number text (1/3 etc) */
+
 .numbertext {
   color: #f2f2f2;
   font-size: 12px;
@@ -96,8 +104,9 @@ header{
 }
 
 /* The dots/bullets/indicators */
+
 .dot {
-  cursor:pointer;
+  cursor: pointer;
   height: 13px;
   width: 13px;
   margin: 0 2px;
@@ -107,33 +116,44 @@ header{
   transition: background-color 0.6s ease;
 }
 
-.active, .dot:hover {
+.active,
+.dot:hover {
   background-color: #717171;
 }
 
 /* Fading animation */
+
 .fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
   -webkit-animation-fill-mode: forwards;
-
   animation-fill-mode: forwards;
   animation-name: fade;
   animation-duration: 1.5s;
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+  from {
+    opacity: .4
+  }
+  to {
+    opacity: 1
+  }
 }
 
 @keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+  from {
+    opacity: .4
+  }
+  to {
+    opacity: 1
+  }
 }
+
 /*Newsletter*/
-#mc_embed_signup{
-  width:100%;
+
+#mc_embed_signup {
+  width: 100%;
   margin: 0 auto;
   margin-bottom: 20px;
   margin-top: 7px;
@@ -142,16 +162,12 @@ header{
 #mc_embed_signup_scroll {
   margin-bottom: 2.5em;
 }
-<<<<<<< HEAD
-=======
 
-
->>>>>>> cb132474d87c6a7a648ea4e1bf30e987fb9a7b38
 /*Footer*/
-footer{
-  background:#f4f4f4;
-  position:absolute;
-  bottom:0;
-  width:100%;
 
+footer {
+  background: #f4f4f4;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
