@@ -12,7 +12,11 @@ body{
   margin:0;
   list-style: none;
   background-color: #f4f4f4;
+<<<<<<< HEAD
+  position:relative;
+=======
   position: relative;
+>>>>>>> cb132474d87c6a7a648ea4e1bf30e987fb9a7b38
 }
 
 img{
@@ -31,7 +35,6 @@ header{
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
   position: relative;
   margin: auto;
   margin-left: -15px;
@@ -139,8 +142,11 @@ header{
 #mc_embed_signup_scroll {
   margin-bottom: 2.5em;
 }
+<<<<<<< HEAD
+=======
 
 
+>>>>>>> cb132474d87c6a7a648ea4e1bf30e987fb9a7b38
 /*Footer*/
 footer{
   background:#f4f4f4;
